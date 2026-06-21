@@ -32,5 +32,7 @@ Colleague (RAG), Intern (эволюционер), Teacher (валидатор), 
 - [Когнитивные контуры: математика масштабирования](https://aura.kim/research-3.html)
 - [Как победить деградацию памяти](https://aura.kim/research-4.html)
 
+- [Fine-tune в 1000 раз дешевле: двухмодельный конвейер](https://aura.kim/research-9.html)
+
 ## Сайт
 https://aura.kim/research
