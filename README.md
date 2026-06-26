@@ -35,12 +35,8 @@ Colleague (RAG), Intern (эволюционер), Teacher (валидатор), 
 - [Инъекция знаний в LLM: малая модель как бизнес-память](https://aura.kim/research-6.html)
 - [LLM + Agent + RAG + AURA: четыре поколения AI-архитектур](https://aura.kim/research-7.html)
 - [Инъекция знаний в LLM: обзор рынка 2025–2026](https://aura.kim/research-8.html)
-- [Fine-tune в 1000 раз дешевле: двухмодельный конвейер](https://aura.kim/research-9.html)(https://aura.kim/research-1.html)
-- [Архитектура: 6 ролей и бизнес-кейс](https://aura.kim/research-2.html)  
-- [Когнитивные контуры: математика масштабирования](https://aura.kim/research-3.html)
-- [Как победить деградацию памяти](https://aura.kim/research-4.html)
-
 - [Fine-tune в 1000 раз дешевле: двухмодельный конвейер](https://aura.kim/research-9.html)
+- [Пластичная модель «Матрёшка» (Matryoshka FWH)](research-10.md) — иерархия быстрых весов как шаг к самообучающимся сетям
 
 ## Сайт
 https://aura.kim/research
