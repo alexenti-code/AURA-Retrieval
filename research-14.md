@@ -14,7 +14,7 @@
 ::: meta
 Автор: Alexey Voronin, Aurum Estate LLC · Категория: AI Safety ---
 Architecture; Synthetic Life; Identity Theory · Дата: 26 июня 2026 ·
-Статус: position paper, архитектурная спецификация
+Статус: position paper, инженерная спецификация
 :::
 
 ## Аннотация
