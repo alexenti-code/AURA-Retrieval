@@ -8,10 +8,11 @@ authors:
   - family-names: "Alexenti"
     given-names: "Alex"
 date-released: 2026-08-27
-version: 1.0.0
+version: 1.1.0
 repository-code: "https://github.com/alexenti-code/AURA-Retrieval"
 type: software
-license: "Proprietary conceptual disclosure; see RESEARCH_SCOPE.md"
+# The scope of this public disclosure is described in RESEARCH_SCOPE.md.
+license: "Apache-2.0"
 keywords:
   - artificial consciousness
   - autobiographical memory

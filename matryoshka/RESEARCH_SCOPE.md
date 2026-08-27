@@ -6,6 +6,15 @@ This repository publicly discloses the conceptual architecture of Matryoshka Con
 
 It also may contain limited experimental code intended to demonstrate or falsify selected claims under controlled conditions.
 
+## Boundary with the deployment environment
+
+The sandbox, documents, APIs, access rights and other externally available
+capabilities belong to the deployment environment and are separate from
+Matryoshka. The environment determines which objects and actions exist;
+Matryoshka preserves and self-organizes the experience lived within it.
+Matryoshka itself defines no goals, permissions, policies, tool access or
+executive control. See [BOUNDARY.md](BOUNDARY.md).
+
 ## Not publicly disclosed
 
 The following are intentionally outside the public disclosure unless explicitly published in a later signed release:

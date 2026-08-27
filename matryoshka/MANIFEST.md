@@ -1,16 +1,18 @@
 # Matryoshka Continuity Weights
 
-**Version:** 1.0.0  
-**Status:** Public conceptual disclosure  
-**Author:** Alexenti / AURA  
-**Repository:** alexenti-code/AURA-Retrieval  
+**Version:** 1.1.0
+**Status:** Public conceptual disclosure
+**Author:** Alexenti / AURA
+**Repository:** alexenti-code/AURA-Retrieval
 **Canonical branch:** `docs/matryoshka-public-disclosure-v1`
 
 ## Declaration
 
 Matryoshka is an architecture for persistent autobiographical continuity of a language-model core.
 
-It is not a retrieval wrapper, a second reasoning agent, a prompt assembly system, or ordinary continual fine-tuning. Its purpose is to give an already capable and ordinarily stable cognitive core the ability to create, preserve and use its own memories of lived events.
+It is a self-organizing plastic parameter substrate of autobiographical memory.
+
+It is not a retrieval wrapper, a second reasoning agent, a prompt assembly system, or ordinary continual fine-tuning. Neither is it a governance layer, policy engine, safety guardrail, permission system, tool-access mechanism, executive control layer, or a mechanism for altering the stable core. Its purpose is to give an already capable and ordinarily stable cognitive core the ability to create, preserve and use its own memories of lived events.
 
 ## Core formulation
 
@@ -53,7 +55,7 @@ This change is intended to preserve personal continuity, not to make the core ge
 Matryoshka distinguishes between:
 
 - pretraining a model to acquire general competence;
-- rare, controlled revision of the stable core to add general capabilities; and
+- rare, owner-initiated revision of the stable core to add general capabilities — a separate procedure outside Matryoshka; and
 - self-authored creation of personal memories in plastic parameters during the operational life of an already capable core.
 
 A model does not become a different intelligence merely because an event is remembered. It becomes the same intelligence with a changed personal history.

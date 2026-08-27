@@ -2,7 +2,29 @@
 
 All notable public disclosures for Matryoshka Continuity Weights are recorded here.
 
-## [1.0.0] — 2026-08-27
+## [1.1.0] — 2026-08-27
+
+### Added
+
+- Boundary document (`BOUNDARY.md`) — Matryoshka is a memory substrate,
+  not a governance layer; deployment-environment separation.
+- Glossary of canonical terms (`GLOSSARY.md`).
+
+### Clarified
+
+- `MANIFEST.md` — explicit non-goals; stable-core revision marked as an
+  owner-initiated procedure outside Matryoshka.
+- `RESEARCH_SCOPE.md` — deployment-environment boundary.
+- Root `README.md` — AURA-Retrieval architecture and Matryoshka Continuity
+  Weights separated; research-10…14 marked as early exploratory materials
+  with preliminary, non-canonical terminology.
+
+### Fixed
+
+- `CITATION.cff` license metadata aligned to Apache-2.0 for published content;
+  undisclosed implementation details remain unpublished and unlicensed.
+
+
 
 ### Added
 
