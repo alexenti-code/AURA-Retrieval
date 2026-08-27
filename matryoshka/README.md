@@ -3,6 +3,7 @@
 **Matryoshka Continuity Weights** is a research direction for self-authored parametric autobiographical memory of a stable language-model core.
 
 - [Manifest](MANIFEST.md)
+- [Benchmarks and economics](BENCHMARKS.md)
 - [Anatomy](ANATOMY.md)
 - [Boundary](BOUNDARY.md)
 - [Glossary](GLOSSARY.md)

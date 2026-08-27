@@ -1,6 +1,6 @@
 # Matryoshka Continuity Weights
 
-**Version:** 1.2.1
+**Version:** 1.3.0
 **Status:** Public conceptual disclosure
 **Author:** Alexenti / AURA
 **Repository:** alexenti-code/AURA-Retrieval

@@ -1,0 +1,15 @@
+memory_store/*.safetensors
+memory_store/*.bin
+memory_store/*.pt
+memory_store/*.gguf
+memory_store/*.ckpt
+lora/*.safetensors
+lora/*.bin
+lora/*.pt
+__pycache__/
+*.pyc
+.DS_Store
+.env
+
+# experimental stand (mechanism code stays local, see RESEARCH_SCOPE.md)
+stand/

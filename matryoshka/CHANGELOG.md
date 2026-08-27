@@ -2,6 +2,25 @@
 
 All notable public disclosures for Matryoshka Continuity Weights are recorded here.
 
+## [1.3.0] — 2026-08-27
+
+### Added
+
+- `BENCHMARKS.md` — first public experimental evidence: a 1.074 GB plastic
+  parameter substrate; fact writes at 12.5 ms p50 / 23.9 ms p99 on CPU only;
+  Q/A recall 100% over a 1000-turn dialogue simulation; temporal versioning
+  3/3; persistence verified; capacity ~8000 facts per GB without
+  consolidation. Includes the economics comparison: rank-1 fact writes are
+  ~10^5–10^6 cheaper in FLOPs than gradient-based online updates and are
+  independent of the size of the stable core.
+- MMI daemon technical specification (internal, `MMI/MMI-DEMON-TZ.md`):
+  production form of the memory interface between dialogue turns.
+
+### Note
+
+- Experimental code and addressing/consolidation mechanisms remain local
+  (see RESEARCH_SCOPE.md).
+
 ## [1.2.1] — 2026-08-27
 
 ### Clarified

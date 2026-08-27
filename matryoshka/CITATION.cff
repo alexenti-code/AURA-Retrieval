@@ -8,8 +8,8 @@ authors:
   - family-names: "Voronin"
     given-names: "Alexey"
 date-released: 2026-08-27
-version: 1.2.1
-doi: 10.5281/zenodo.22133023
+version: 1.3.0
+doi: 10.5281/zenodo.22124204
 repository-code: "https://github.com/alexenti-code/AURA-Retrieval"
 type: software
 # The scope of this public disclosure is described in RESEARCH_SCOPE.md.
