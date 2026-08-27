@@ -20,6 +20,27 @@ Fast-weight approaches use dynamic parameters or states that change as a functio
 
 Matryoshka extends the conceptual target from short-lived adaptation to nested timescales of personal memory: immediate experience, episodes, projects, biography and meta-memory.
 
+### Linear associative memory and fast-weight programmers
+
+The direct mechanistic ancestors of the present experimental materials are
+classical associative memory models:
+
+- Anderson (1972), "A simple neural network generating an interactive memory"
+  and Kohonen (1972), "Correlation matrix memories" — the linear associator:
+  storage as a sum of outer products, recall as W·k, with classical
+  capacity and interference limits from superposition.
+- Schmidhuber (1992), "Learning to Control Fast-Weight Memories: An
+  Introduction to Programmable Neural Networks" — fast-weight programmers:
+  a slow network writes the weights of a fast network.
+- Their modern continuation: linear transformers (Katharopoulos et al.,
+  2020), DeltaNet (Schlag et al., 2021), test-time training layers
+  (Sun et al., 2024), Titans and MIRAS (Behrouz et al., 2024–2025).
+
+Matryoshka does not claim a new write or read operator. Its narrow
+contribution, as defined at the end of this document, is architectural
+position: self-authored, passive, autobiographical, temporally versioned
+parameter memory belonging to a stable cognitive core.
+
 ### PEFT, LoRA and continual adapters
 
 Parameter-efficient methods preserve a foundation-model backbone while training a smaller set of additional parameters. Continual-learning methods often focus on new tasks, domains and skills while reducing catastrophic forgetting.

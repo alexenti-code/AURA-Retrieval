@@ -1,0 +1,30 @@
+{
+  "title": "Matryoshka Continuity Weights",
+  "description": "Conceptual architecture for self-authored parametric autobiographical memory of a stable language-model core: a stable cognitive core K with a passive, self-authored plastic parameter substrate Phi(t). Public disclosure includes the canonical definition, anatomy, boundary, glossary and prior-art distinctions; implementation-specific mechanisms are intentionally not disclosed.",
+  "creators": [
+    {
+      "name": "Voronin, Alexey",
+      "affiliation": "AURA"
+    }
+  ],
+  "license": "Apache-2.0",
+  "access_right": "open",
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "keywords": [
+    "autobiographical memory",
+    "parametric memory",
+    "neural memory",
+    "persistent identity",
+    "continual agents",
+    "language models",
+    "fast weights"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/alexenti-code/AURA-Retrieval",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

@@ -2,6 +2,16 @@
 
 All notable public disclosures for Matryoshka Continuity Weights are recorded here.
 
+## [1.2.1] — 2026-08-27
+
+### Clarified
+
+- `PRIOR_ART.md` — added the classical mechanistic lineage: linear
+  associative memory (Anderson 1972, Kohonen 1972), fast-weight
+  programmers (Schmidhuber 1992), and the modern line (linear
+  transformers, DeltaNet, test-time training, Titans/MIRAS). No new
+  technical mechanisms disclosed.
+
 ## [1.2.0] — 2026-08-27
 
 ### Added
