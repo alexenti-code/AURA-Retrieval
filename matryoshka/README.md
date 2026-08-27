@@ -1,28 +1,21 @@
-# МАТРЁШКА — иерархия быстрых весов для диалоговой памяти
+# Matryoshka
 
-**Статья:** `/research-10.html`
+**Matryoshka Continuity Weights** is a research direction for self-authored parametric autobiographical memory of a stable language-model core.
 
-Прототип L0 и L1: ассоциативная память на основе LoRA-подобных быстрых весов.
+- [Manifest](MANIFEST.md)
+- [Related work and distinctions](PRIOR_ART.md)
+- [Public research scope](RESEARCH_SCOPE.md)
+- [Citation](CITATION.cff)
+- [Changelog](CHANGELOG.md)
 
-## Структура
+> The cognitive core is the sole semantic subject. Plastic weight files are passive memory matter temporarily separated for experimentation.
 
-```
-matryoshka/
-├── core.py          — L0 (одна пара), L1 (микротема), ядро
-├── synthetic.py     — генерация синтетических диалогов
-├── benchmark.py     — замер recall(N, r) для разных рангов
-├── requirements.txt
-└── README.md
-```
+## Existing experimental materials
 
-## Что делает прототип
+This directory contains early experimental materials and benchmarks for studying plastic parameter memory. They are exploratory research artifacts and do not constitute a complete implementation of the Matryoshka architecture.
 
-- **L0:** запоминает одну пару ключ→значение, перезаписывает при новой
-- **L1:** накапливает до N пар в матрице ранга r, извлекает по ключу
-- **Benchmark:** измеряет, сколько ассоциаций держит матрица ранга r при recall > 0.8
+## Status
 
-## План бенчмарков (следующий шаг)
+The public documents define the conceptual scope of Matryoshka v1.0.0. Implementation-specific mechanisms for writing, locating, updating, protecting and consolidating plastic parameter states are intentionally not disclosed in this release.
 
-1. recall(N, r) для r = 4, 8, 16, 32 при N от 10 до 2000
-2. Сравнение latency с FAISS (одно matmul vs дерево поиска) при N < 1000
-3. Влияние superposition: интерференция близких ключей при высокой плотности записи
+See [MANIFEST.md](MANIFEST.md) for the canonical definition.
