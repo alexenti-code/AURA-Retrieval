@@ -1,6 +1,6 @@
 # Matryoshka Continuity Weights
 
-**Version:** 1.1.0
+**Version:** 1.2.0
 **Status:** Public conceptual disclosure
 **Author:** Alexenti / AURA
 **Repository:** alexenti-code/AURA-Retrieval
@@ -13,6 +13,8 @@ Matryoshka is an architecture for persistent autobiographical continuity of a la
 It is a self-organizing plastic parameter substrate of autobiographical memory.
 
 It is not a retrieval wrapper, a second reasoning agent, a prompt assembly system, or ordinary continual fine-tuning. Neither is it a governance layer, policy engine, safety guardrail, permission system, tool-access mechanism, executive control layer, or a mechanism for altering the stable core. Its purpose is to give an already capable and ordinarily stable cognitive core the ability to create, preserve and use its own memories of lived events.
+
+[ANATOMY.md](ANATOMY.md) explains the anatomy of the plastic parameter substrate in more detail.
 
 ## Core formulation
 

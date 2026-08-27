@@ -2,6 +2,15 @@
 
 All notable public disclosures for Matryoshka Continuity Weights are recorded here.
 
+## [1.2.0] — 2026-08-27
+
+### Added
+
+- `ANATOMY.md` — public conceptual architectural description of Matryoshka:
+  the anatomy of autobiographical continuity (K + Φ(t)), nesting of plastic
+  capacity across timescales, and an ordinary technical memory interface.
+  No implementation-specific mechanisms are disclosed.
+
 ## [1.1.0] — 2026-08-27
 
 ### Added
