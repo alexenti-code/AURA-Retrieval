@@ -70,6 +70,7 @@
 | Concept DOI (цитировать все версии) | 10.5281/zenodo.22124204 |
 | v1.2.0 — Anatomy Principle | 10.5281/zenodo.22125760 |
 | v1.2.1 — Prior-Art Lineage | 10.5281/zenodo.22133023 |
+| v1.3.0 — Experimental Evidence (стенд Φ 1 ГБ) | 10.5281/zenodo.22133160 |
 
 **История релизов:** v1.0.0 Public Disclosure (08:01 UTC) → v1.1.0 Boundary
 (08:35 UTC) → v1.2.0 Anatomy (10:04 UTC) → v1.2.1 Prior-Art Lineage (вечер,
