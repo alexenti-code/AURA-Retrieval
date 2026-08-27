@@ -17,6 +17,15 @@
 
 This directory contains early experimental materials and benchmarks for studying plastic parameter memory. They are exploratory research artifacts and do not constitute a complete implementation of the Matryoshka architecture.
 
+## Citation
+
+- **Concept DOI (cites all versions):** 10.5281/zenodo.22124204
+- **This version (v1.2.1) DOI:** 10.5281/zenodo.22133023
+
+DOIs are minted automatically by Zenodo for each GitHub release of this
+repository (tags `matryoshka-vX.Y.Z`). Metadata source: `.zenodo.json`
+in the repository root.
+
 ## Status
 
 The public documents define the conceptual scope of Matryoshka v1.0.0. Implementation-specific mechanisms for writing, locating, updating, protecting and consolidating plastic parameter states are intentionally not disclosed in this release.

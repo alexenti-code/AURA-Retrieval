@@ -6,7 +6,7 @@
 
 ---
 
-## Текущая дата: 2026-08-01
+## Текущая дата: 2026-08-27
 
 ## 🏗 Стек проекта
 
@@ -40,6 +40,39 @@
 - _(пока пусто)_
 
 ---
+
+## 📦 Публикация Matryoshka (GitHub → Zenodo DOI)
+
+**Как устроено (восстановление картины):**
+
+1. Репозиторий: `github.com/alexenti-code/AURA-Retrieval`, публичный, Apache-2.0.
+   Концепция Matryoshka живёт в папке `matryoshka/` (MANIFEST, ANATOMY, BOUNDARY,
+   GLOSSARY, PRIOR_ART, RESEARCH_SCOPE, CITATION.cff, CHANGELOG).
+2. Каждый релиз = git-тег `matryoshka-vX.Y.Z` + GitHub Release с таким же именем.
+   Релизы создаются через `gh release create matryoshka-vX.Y.Z` (gh авторизован
+   как alexenti-code, права repo).
+3. Zenodo подключён к репозиторию (вход через GitHub OAuth, аккаунт
+   alexenti@gmail.com, страница: zenodo.org/account/settings/github/).
+   На каждый GitHub Release Zenodo автоматически снимает zip-ball и регистрирует
+   DOI. Метаданные берёт из `.zenodo.json` в корне репозитория.
+4. Порядок публикации новой версии: правки → коммит в main → push →
+   `git tag matryoshka-vX.Y.Z && git push origin <tag>` → `gh release create`.
+   Релизы, созданные ДО подключения репо к Zenodo, DOI не получают (подключено 27.08.2026, до v1.2.1 — всё получало).
+5. Версионирование — по `matryoshka/RESEARCH_SCOPE.md`: каждый релиз честно
+   типизируется (clarifies / adds evidence / changes terminology / discloses
+   mechanism). Механизмы записи/чтения/консолидации Φ публично не раскрываются.
+
+**DOI:**
+
+| Что | DOI |
+|-----|-----|
+| Concept DOI (цитировать все версии) | 10.5281/zenodo.22124204 |
+| v1.2.0 — Anatomy Principle | 10.5281/zenodo.22125760 |
+| v1.2.1 — Prior-Art Lineage | 10.5281/zenodo.22133023 |
+
+**История релизов:** v1.0.0 Public Disclosure (08:01 UTC) → v1.1.0 Boundary
+(08:35 UTC) → v1.2.0 Anatomy (10:04 UTC) → v1.2.1 Prior-Art Lineage (вечер,
+первый релиз с DOI от Zenodo).
 
 ## 🚫 Отклонённые варианты
 
