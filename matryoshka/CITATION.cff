@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use or discuss this work, please cite it as below."
+title: "Matryoshka Continuity Weights"
+abstract: >
+  A conceptual architecture for self-authored parametric
+  autobiographical memory of a stable language-model core.
+authors:
+  - family-names: "Alexenti"
+    given-names: "Alex"
+date-released: 2026-08-27
+version: 1.0.0
+repository-code: "https://github.com/alexenti-code/AURA-Retrieval"
+type: software
+license: "Proprietary conceptual disclosure; see RESEARCH_SCOPE.md"
+keywords:
+  - artificial consciousness
+  - autobiographical memory
+  - parametric memory
+  - neural memory
+  - persistent identity
+  - continual agents
+  - language models
