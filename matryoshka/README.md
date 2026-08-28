@@ -20,8 +20,10 @@ This directory contains early experimental materials and benchmarks for studying
 
 ## Citation
 
+- **First public technical disclosure:** AURA-Retrieval commit `539fc32`, 2026-06-26 (research-10 and stand code)
+- **Previous archival release (v1.3.0):** 10.5281/zenodo.22133160
+- **This version (v1.3.1) DOI:** 10.5281/zenodo.22141019
 - **Concept DOI (cites all versions):** 10.5281/zenodo.22124204
-- **This version (v1.2.1) DOI:** 10.5281/zenodo.22133023
 
 DOIs are minted automatically by Zenodo for each GitHub release of this
 repository (tags `matryoshka-vX.Y.Z`). Metadata source: `.zenodo.json`

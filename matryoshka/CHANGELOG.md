@@ -13,6 +13,10 @@ All notable public disclosures for Matryoshka Continuity Weights are recorded he
 - `BENCHMARKS.md` — added a Conditions and limitations block: dataset, metric
   definition (recall@0.8), seed, hardware, absence of end-to-end baselines,
   and the scope of the reported figures.
+- `CITATION.cff` / `README.md` — recorded the v1.3.1 Zenodo DOI
+  (10.5281/zenodo.22141019, published 2026-08-28) and the full fix chain
+  (first disclosure commit, previous archival DOI, version DOI, concept DOI).
+  Metadata-only change; no architectural or performance claims.
 
 ## [1.3.0] — 2026-08-27
 
