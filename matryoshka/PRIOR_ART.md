@@ -53,6 +53,14 @@ RAG, vector stores, event logs, knowledge graphs and agent-memory systems preser
 
 Matryoshka does not deny the role of external archives. It distinguishes them from the model's internal continuity substrate: the original artifact may remain external while the lived and interpreted trace is stored in the plastic parameter state.
 
+### Separate parameter bodies outside the compute graph (Qwen 3.8-Flash-Next / Qwen 4 preview, Alibaba, 2026)
+
+Alibaba's Qwen 3.8-Flash-Next architectural preview (Qwen blog, August 2026) places a very large N-gram embedding table physically outside the main MoE compute graph: entries are addressed by deterministic hashes of recent tokens, the table does not participate in matrix arithmetic, and it is paged from RAM or SSD via mmap with asynchronous prefetching while accelerators compute the experts.
+
+**Attribution.** This mechanism is Alibaba's invention. Matryoshka does not claim it, does not precede it, and is not its source. It is also not an instance of Matryoshka: the N-gram table is static and pretrained, hash-addressed rather than semantically written, carries no temporal versioning, has no autobiographical purpose, and exists to lower inference cost — not to preserve the lived history of a model instance.
+
+**Adjacent work.** Subsequent public architectures explore a related separation between memory capacity and active computation: parameter mass held outside the main compute graph, resident outside accelerator memory, and read by the core on demand. These systems are discussed as adjacent work; they do not establish identity with the Matryoshka principle, whose defining properties — self-authored, autobiographical, temporally versioned memory controlled by the core — are not addressed there. Matryoshka deliberately does not modify vendor cores: the plastic substrate Φ is kept outside the core as an inspectable, reversible experimental body. As vendors internalize related mechanisms, Matryoshka's narrow contribution shifts from physical placement to ownership and semantics, as stated in item 7 of the narrow contribution below.
+
 ### Persistent-identity agents
 
 Persistent-agent designs aim to preserve persona and continuity across sessions, usually through external files, summaries, memory stores and retrieval.

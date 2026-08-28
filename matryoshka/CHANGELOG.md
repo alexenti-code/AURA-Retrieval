@@ -2,6 +2,18 @@
 
 All notable public disclosures for Matryoshka Continuity Weights are recorded here.
 
+## [1.3.1] — 2026-08-28
+
+### Clarified
+
+- `PRIOR_ART.md` — added "Separate parameter bodies outside the compute graph
+  (Qwen 3.8-Flash-Next / Qwen 4 preview, Alibaba, 2026)": the N-gram parameter
+  body is attributed to Alibaba and discussed as adjacent work. No identity
+  with the Matryoshka principle is claimed in either direction.
+- `BENCHMARKS.md` — added a Conditions and limitations block: dataset, metric
+  definition (recall@0.8), seed, hardware, absence of end-to-end baselines,
+  and the scope of the reported figures.
+
 ## [1.3.0] — 2026-08-27
 
 ### Added
