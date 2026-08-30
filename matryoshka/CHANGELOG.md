@@ -2,6 +2,16 @@
 
 All notable public disclosures for Matryoshka Continuity Weights are recorded here.
 
+## [1.4.0] — 2026-08-30
+
+### Added
+
+- research-23 «Time as a property of matter» (ru): temporal grounding for an
+  artificial subject via irreversible change of its own substrate; cloud
+  (split) vs local architecture; trace friction as the sense of time.
+  Source: aura.kim/research-23.html; sci. repo: alexenti-code/matryoshka
+  (review/matryoshka-v1.0.0, research/research-23-time-as-property-of-matter.md).
+
 ## [1.3.1] — 2026-08-28
 
 ### Clarified
