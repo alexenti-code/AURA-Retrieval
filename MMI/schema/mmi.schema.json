@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MMI anatomy declaration v0",
+  "type": "object",
+  "required": ["version", "core", "memory_interface", "memory_body"],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "core": {
+      "type": "object",
+      "required": ["symbol", "description"],
+      "properties": {
+        "symbol": { "type": "string", "const": "K" },
+        "description": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "memory_interface": {
+      "type": "object",
+      "required": ["name", "role", "non_functions"],
+      "properties": {
+        "name": { "type": "string", "const": "MMI" },
+        "role": { "type": "string" },
+        "non_functions": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "memory_body": {
+      "type": "object",
+      "required": ["symbol", "description", "timescales"],
+      "properties": {
+        "symbol": { "type": "string", "const": "Φ(t)" },
+        "description": { "type": "string" },
+        "timescales": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

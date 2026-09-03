@@ -1,0 +1,29 @@
+{
+  "version": "0.1.0",
+  "core": {
+    "symbol": "K",
+    "description": "stable language-model core"
+  },
+  "memory_interface": {
+    "name": "MMI",
+    "role": "external compatibility interface between K and Φ(t)",
+    "non_functions": [
+      "policy engine",
+      "retrieval wrapper",
+      "second reasoning subject",
+      "executive controller",
+      "stable core modification"
+    ]
+  },
+  "memory_body": {
+    "symbol": "Φ(t)",
+    "description": "separate plastic autobiographical parameter body",
+    "timescales": [
+      "working traces",
+      "fresh experience",
+      "episodes",
+      "projects",
+      "biography"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "instance": "aura_instance_001",
+  "base_url": "https://routerai.ru/api/v1",
+  "model": "deepseek/deepseek-v4-flash-0731",
+  "memory_file": null,
+  "lora_adapter": null,
+  "user_prompt": "State in 5-7 short sentences what MMI is in this runtime and what it is not.",
+  "response": "MMI is the runtime interface connecting the stable cognitive core to the plastic autobiographical memory.  \nIt provides present access to lived traces organized across nested timescales.  \nIt allows the core to treat that memory as its own continuity.  \nIt structures memory from working traces up to biography, but does not select meaning.  \nIt is not an independent agent or separate mind.  \nIt is not a fixed repository; it is plastic and shaped by experience.  \nIt exists here as the bridge between what persists and what changes."
+}

@@ -1,0 +1,9 @@
+{
+  "instance": "aura_instance_001",
+  "base_url": "https://routerai.ru/api/v1",
+  "model": "deepseek/deepseek-v4-flash-0731",
+  "memory_file": null,
+  "lora_adapter": null,
+  "user_prompt": "Reply with exactly: MMI provider connection ok.",
+  "response": "MMI provider connection ok."
+}
